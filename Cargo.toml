@@ -1,0 +1,13 @@
+[package]
+name = "monero-wallet-rpc"
+version = "0.1.0"
+edition = "2021"
+description = "monero-wallet-rpc in Rust.  A command-line interface."
+repository = "https://github.com/ManyMath/monero-wallet-rpc-rust"
+license = "MIT"
+
+[[bin]]
+name = "monero-wallet-rpc"
+path = "src/main.rs"
+
+[dependencies]
